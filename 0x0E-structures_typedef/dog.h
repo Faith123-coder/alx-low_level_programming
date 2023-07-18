@@ -1,3 +1,5 @@
+#ifndef DOG_H
+#define DOG_H
 #include <stdlib.h>
 #include "dog.h"
 /**
@@ -73,5 +75,5 @@ dog_t *new_dog(char *name, float age, char *owner)
 	_strcpy(dog->name, name);
 	_strcpy(dog->owner, owner);
 	dog->age = age;
-	return (dog);
-}
+}	return (dog);
+#endif
